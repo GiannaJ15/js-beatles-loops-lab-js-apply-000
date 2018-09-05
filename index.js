@@ -29,3 +29,5 @@ function iLoveTheBeatles(x)
 do {statement.push("I love the Beatles!"); x++;
 }
 while (x<15)}
+
+console.log(iLoveTheBeatles([7]))
