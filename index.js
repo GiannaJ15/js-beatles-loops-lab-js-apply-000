@@ -23,6 +23,6 @@ console.log(johnLennonFacts(["foo","bar"]));
 //
 //
 //
-var x 
+var x = 0
 function iLoveTheBeatles(x)
 
