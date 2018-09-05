@@ -23,8 +23,9 @@ console.log(johnLennonFacts(["foo","bar"]));
 //
 //
 //
-var x = 0
+
 function iLoveTheBeatles(x)
+var x = 0
 { var statement = []
 do {statement.push("I love the Beatles!"); x++;
 }
