@@ -17,7 +17,8 @@ function johnLennonFacts(facts)
 {while (f< facts.length) {lennonFacts.push(facts[f] + "!!!"); f++; }
   return lennonFacts
 } 
-facts.pop()
+facts.clear()
+facts.push("foo","bar")
 console.log(johnLennonFacts(facts));
 
 
