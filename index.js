@@ -20,5 +20,8 @@ while (f< facts.length) {lennonFacts.push(facts[f] + "!!!"); f++; }
 } 
 
 console.log(johnLennonFacts(["foo","bar"]));
+//
+//
+//
 
 
