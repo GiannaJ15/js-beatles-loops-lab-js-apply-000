@@ -15,7 +15,6 @@ var f= 0
 var lennonFacts = []
 function johnLennonFacts(facts)
 {while (f< facts.length) {lennonFacts.push(facts[f] + "!!!"); f++; }
-lennonFacts.pop()
   return lennonFacts
 }
 
