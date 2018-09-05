@@ -14,12 +14,12 @@ var facts = ["He was the last Beatle to learn to drive","He was never a vegetari
 var f= 0
 var lennonFacts = []
 function johnLennonFacts(facts)
+var lennonFacts =["foo","bar"];
 {while (f< facts.length) {lennonFacts.push(facts[f] + "!!!"); f++; }
   return lennonFacts
 } 
-var lennonFacts =["foo","bar"];
-{while (f< facts.length) {lennonFacts.push(facts[f] + "!!!"); f++; }
-  return lennonFacts}
+
+
 
 console.log(johnLennonFacts(facts));
 
