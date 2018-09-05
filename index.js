@@ -28,6 +28,6 @@ function iLoveTheBeatles(x)
 { var statement = []
 do {statement.push("I love the Beatles!"); x++;
 }
-while (x<15)}
+while (x < 15)}
 
-console.log
+console.log(iLoveTheBeatles(7))
