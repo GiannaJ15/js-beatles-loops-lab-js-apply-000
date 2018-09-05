@@ -28,3 +28,4 @@ function iLoveTheBeatles(x)
 { var statement = []
 do {statement.push("I love the Beatles!"); i++;
 }
+while (i<15)}
