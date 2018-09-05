@@ -18,6 +18,8 @@ function johnLennonFacts(facts)
   return lennonFacts
 } 
 var lennonFacts =["foo","bar"];
+{while (f< facts.length) {lennonFacts.push(facts[f] + "!!!"); f++; }
+  return lennonFacts}
 
 console.log(johnLennonFacts(facts));
 
