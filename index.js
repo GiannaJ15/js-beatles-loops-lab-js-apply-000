@@ -18,6 +18,6 @@ function johnLennonFacts(facts)
   return lennonFacts
 } 
 
-console.log(johnLennonFacts(facts));
+console.log(johnLennonFacts("foo","bar"));
 
 
