@@ -26,8 +26,9 @@ console.log(johnLennonFacts(["foo","bar"]));
 var x = 0
 function iLoveTheBeatles(x)
 { var statement = []
-do {statement.push("I love the Beatles!"); x++;
+do {statement.push("I love the Beatles!"); x++; }
+while (x < 15)
+  return statement
 }
-while (x < 15)}
 
 console.log(iLoveTheBeatles(7))
