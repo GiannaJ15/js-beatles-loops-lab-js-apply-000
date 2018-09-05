@@ -18,6 +18,7 @@ function johnLennonFacts(facts)
   return lennonFacts
 } 
 facts.clear()
+var facts = []
 facts.push("foo","bar")
 console.log(johnLennonFacts(facts));
 
