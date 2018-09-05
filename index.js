@@ -10,16 +10,14 @@ console.log(theBeatlesPlay(musicians,instruments))
 // 
 //
 //
-
+var facts = ["He was the last Beatle to learn to drive","He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"]
+var f= 0
+var lennonFacts = []
 function johnLennonFacts(facts)
-const facts = ["He was the last Beatle to learn to drive","He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"]
-const f= 0
-const lennonFacts = []
 {while (f< facts.length) {lennonFacts.push(facts[f] + "!!!"); f++; }
   return lennonFacts
 } 
-
-
+var facts = ["foo","bar"]
 console.log(johnLennonFacts(facts));
 
 
